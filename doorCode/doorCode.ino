@@ -58,7 +58,7 @@ bool accept_data = false;
 
 uint8_t i;
 
-constexpr uint8_t AccessListSize = 9; //CHANGE THIS NUMBER
+constexpr uint8_t AccessListSize = 10; //CHANGE THIS NUMBER
 //By default you can only use “sizeof”, which isnt even fast
 //at least if array size is incorrect the compiler will throw a error
 //so you WILL need to fix it
@@ -71,7 +71,8 @@ static const PROGMEM uint32_t AccessList[AccessListSize] = { //ADD CODES HERE
   950912, //Kelsey
   943634, //Alec
   946096, //Anthony
-  941159 //Joe Z
+  941159, //Joe Z
+  939938 //Abe
 };
 
 // interrupt that happens when INTO goes low (0 bit)
